@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\config",
     "\\routes",
     "\\routes\\api"
   ],
+  "SelectedNode": "\\models",
   "PreviewInSolutionExplorer": false
 }
