@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\config",
     "\\routes",
     "\\routes\\api"
   ],
-  "SelectedNode": "\\models",
+  "SelectedNode": "\\routes\\api\\auth.js",
   "PreviewInSolutionExplorer": false
 }
