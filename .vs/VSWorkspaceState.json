@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\middleware",
     "\\routes",
     "\\routes\\api"
   ],
