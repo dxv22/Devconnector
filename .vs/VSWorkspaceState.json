@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\middleware",
+    "\\models",
     "\\routes",
     "\\routes\\api"
   ],
-  "SelectedNode": "\\routes\\api\\users.js",
+  "SelectedNode": "\\models\\Profile.js",
   "PreviewInSolutionExplorer": false
 }
