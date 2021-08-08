@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\config",
-    "\\middleware",
-    "\\models",
-    "\\routes",
-    "\\routes\\api"
+    "\\client",
+    "\\client\\public",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\layout"
   ],
+  "SelectedNode": "\\client\\src\\components\\layout\\Navbar.js",
   "PreviewInSolutionExplorer": false
 }
