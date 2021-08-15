@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\config",
-    "\\middleware",
-    "\\models",
-    "\\routes",
-    "\\routes\\api"
+    "\\client",
+    "\\client\\public",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\auth",
+    "\\client\\src\\components\\layout",
+    "\\client\\src\\img",
+    "\\config"
   ],
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
