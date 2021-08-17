@@ -10,6 +10,6 @@
     "\\client\\src\\img",
     "\\config"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\client\\src\\components\\auth\\Login.js",
   "PreviewInSolutionExplorer": false
 }
