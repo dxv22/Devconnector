@@ -4,12 +4,10 @@
     "\\client",
     "\\client\\public",
     "\\client\\src",
-    "\\client\\src\\components",
     "\\client\\src\\components\\auth",
     "\\client\\src\\components\\layout",
-    "\\client\\src\\img",
-    "\\config"
+    "\\client\\src\\reducers"
   ],
-  "SelectedNode": "\\client\\src\\components\\auth\\Login.js",
+  "SelectedNode": "\\client\\src\\reducers\\index.js",
   "PreviewInSolutionExplorer": false
 }
