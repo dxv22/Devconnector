@@ -4,12 +4,8 @@
     "\\client",
     "\\client\\public",
     "\\client\\src",
-    "\\client\\src\\components",
-    "\\client\\src\\components\\auth",
-    "\\client\\src\\components\\layout",
-    "\\client\\src\\img",
-    "\\config"
+    "\\client\\src\\actions",
+    "\\client\\src\\reducers"
   ],
-  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
