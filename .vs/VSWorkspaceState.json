@@ -4,10 +4,8 @@
     "\\client",
     "\\client\\public",
     "\\client\\src",
-    "\\client\\src\\components\\auth",
-    "\\client\\src\\components\\layout",
+    "\\client\\src\\actions",
     "\\client\\src\\reducers"
   ],
-  "SelectedNode": "\\client\\src\\reducers\\index.js",
   "PreviewInSolutionExplorer": false
 }
