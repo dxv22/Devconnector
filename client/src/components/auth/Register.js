@@ -16,16 +16,17 @@ const Register = ({ setAlert, register }) => {
     // Destructuring to pull from formData
     const { name, email, password, password2 } = formData;
 
-    const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
+    const onChange = e => 
+        setFormData({ ...formData, [e.target.name]: e.target.value });
 
-    const onSubmit = e => {
+    const onSubmit = async e => {
         e.preventDefault();
         if (password !== password2) {
            setAlert('Passwords do not match', 'danger');
         } else {
             register({ name, email, password });
         }
-    }
+    };
 
     return <Fragment>
         <h1 className="large text-primary">Sign Up</h1>
@@ -37,7 +38,7 @@ const Register = ({ setAlert, register }) => {
                     placeholder="Name" 
                     name="name" 
                     value={name}
-                    onChange={ e => onChange(e)} 
+                    onChange={ e => onChange(e)}
                 />
             </div>
             <div className="form-group">
