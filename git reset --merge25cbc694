@@ -1,0 +1,39 @@
+[33me39e6d3[m[33m ([m[1;36mHEAD -> [m[1;32mDevConnector[m[33m, [m[1;31morigin/DevConnector[m[33m)[m HEAD@{0}: commit: Added user auth for register user through redux
+[33m25cbc69[m HEAD@{1}: commit: Set up alert types and add alert and register components
+[33m213a3ce[m HEAD@{2}: commit: Adding alert types SET_ALERT and REMOVE_ALERT
+[33m32c0822[m HEAD@{3}: commit: Created Redux store and allow Redux devtools to run
+[33m362c4bc[m HEAD@{4}: commit: Create Login form and fixed route links on Register.js from href to Link
+[33m30de290[m HEAD@{5}: commit: Create register user page and use useState hooks to populate form data. Add submit button to return data
+[33mf18b314[m HEAD@{6}: commit: Added new components Login.js and Register.js and added routing for the two in Landing.js and Navbar.js using React Router
+[33m40802fd[m HEAD@{7}: commit: Add react scripts, using concurrently to run server and client. Setting up landing and navbar components and homepage
+[33m0c51c80[m HEAD@{8}: commit: Add comment and Delete comment
+[33m4b366d2[m HEAD@{9}: commit: Added functionality to like and unlike a post
+[33mc9f5ef4[m HEAD@{10}: commit: Added GET posts, GET post by ID, DELETE post
+[33m76db96d[m HEAD@{11}: commit: Added new post route request to allow a user to post text data by using user login ID
+[33m0453036[m HEAD@{12}: commit: Added Post Schema model
+[33m074083b[m HEAD@{13}: commit: Added githubclient, githubsecret details to default.json. Added GET request to get first 5 github repos from github username, using request and config
+[33m140478c[m HEAD@{14}: commit: Added Add and Delete education functionality using PUT and DELETE requests
+[33m2dcb0a1[m HEAD@{15}: commit: Added Delete user experience functionality
+[33mc889a80[m HEAD@{16}: commit: Add functionality to populate profile experience using PUT.
+[33md9e0bdf[m HEAD@{17}: commit: Added route to delete profile, user and posts, based on the user id code given by token
+[33m4b580cc[m HEAD@{18}: commit: Added route to GET all profiles and GET profile by user ID
+[33m9b95778[m HEAD@{19}: commit: Create a new route when user posts or creates a new user profile. Modified profile.js file. Route will be used when user calls POST on postman
+[33mb3c0129[m HEAD@{20}: commit: Created route for getting a current user profile. Does not create a new user profile so a 'no user exists' error is returned.
+[33me671f84[m HEAD@{21}: commit: Added Profile.js file in models. With new profile schema
+[33m8ea6c7e[m HEAD@{22}: commit: Added user details authentication in auth.js file. with methods from users.js
+[33md26b7c0[m HEAD@{23}: commit: Added middleware and JWT verify. Updated auth.js route to display user data when user is verified
+[33me9699ff[m HEAD@{24}: reset: moving to HEAD
+[33me9699ff[m HEAD@{25}: commit: Added devconnector folder
+[33m6dc0ddf[m HEAD@{26}: commit: Added .suo, slnx.sqlite, VSWorkspaceState.json. Deleted middleware folder
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{27}: checkout: moving from master to DevConnector
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{28}: checkout: moving from DevConnector to master
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{29}: checkout: moving from master to DevConnector
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{30}: checkout: moving from masterTest to master
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{31}: checkout: moving from master to masterTest
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{32}: checkout: moving from DevConnectorTest to master
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{33}: checkout: moving from master to DevConnectorTest
+[33mbc62b14[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{34}: commit: Implementing JWT
+[33m52a61f7[m HEAD@{35}: commit: Adding user registration
+[33mefb61d2[m HEAD@{36}: commit: Adding user registration and validation
+[33m7020a09[m HEAD@{37}: commit: Adding routing files
+[33m1e51009[m HEAD@{38}: commit (initial): Initial commit

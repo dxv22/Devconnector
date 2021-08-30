@@ -5,6 +5,9 @@
     "\\client\\public",
     "\\client\\src",
     "\\client\\src\\actions",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\auth",
+    "\\client\\src\\components\\layout",
     "\\client\\src\\reducers"
   ],
   "PreviewInSolutionExplorer": false
