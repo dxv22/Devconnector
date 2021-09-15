@@ -2,13 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\client",
-    "\\client\\public",
     "\\client\\src",
-    "\\client\\src\\actions",
     "\\client\\src\\components",
-    "\\client\\src\\components\\auth",
+    "\\client\\src\\components\\dashboard",
     "\\client\\src\\components\\layout",
-    "\\client\\src\\reducers"
+    "\\client\\src\\components\\routing",
+    "\\client\\src\\reducers",
+    "\\routes",
+    "\\routes\\api"
   ],
   "PreviewInSolutionExplorer": false
 }
