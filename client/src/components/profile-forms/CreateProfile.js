@@ -157,11 +157,8 @@ const CreateProfile = ({ createProfile, history }) => {
 
           <div className="form-group social-input">
             <i className="fab fa-linkedin fa-2x"></i>
-            <input 
-              type="text" 
-              placeholder="Linkedin URL" 
-              name="linkedin" 
-            />
+            <input type="text" placeholder="Linkedin URL" name="linkedin" value={linkedin} onChange={e => onChange(e)}
+                          />
           </div>
 
           <div className="form-group social-input">

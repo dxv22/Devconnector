@@ -3,13 +3,13 @@
     "",
     "\\client",
     "\\client\\src",
+    "\\client\\src\\actions",
     "\\client\\src\\components",
     "\\client\\src\\components\\dashboard",
-    "\\client\\src\\components\\layout",
-    "\\client\\src\\components\\routing",
-    "\\client\\src\\reducers",
+    "\\client\\src\\components\\profiles",
     "\\routes",
     "\\routes\\api"
   ],
+  "SelectedNode": "\\client\\src\\components\\profiles\\ProfileItem.js",
   "PreviewInSolutionExplorer": false
 }
