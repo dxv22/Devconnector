@@ -28,7 +28,6 @@ const Profile = ({
         <div class="profile-grid my-1">
           <ProfileTop profile={profile} />
           <ProfileAbout profile={profile} />
-          // Adding profile experience section
           <div className="profile-exp bg-white p-2">
             <h2 className="text-primary">Experience</h2>
             {profile.experience.length > 0 ? (<Fragment>
@@ -37,7 +36,6 @@ const Profile = ({
             ))}
             </Fragment>) : (<h4>No experience credentials</h4>)}
           </div>
-          // Adding profile education section
           <div className="profile-edu bg-white p-2">
             <h2 className="text-primary">Education</h2>
             {profile.education.length > 0 ? (<Fragment>
