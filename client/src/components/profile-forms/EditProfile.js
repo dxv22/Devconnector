@@ -44,7 +44,7 @@ const EditProfile = ({
       youtube: loading || !profile.social ? '' : profile.social.youtube,
       instagram: loading || !profile.social ? '' : profile.social.instagram,
     });
-  }, [loading]);
+  }, [loading, getCurrentProfile]);
 
   const {
     company,
@@ -182,9 +182,11 @@ const EditProfile = ({
           <div className="form-group social-input">
             <i className="fab fa-linkedin fa-2x"></i>
             <input 
-              type="text" 
-              placeholder="Linkedin URL" 
-              name="linkedin" 
+            type="text"
+            placeholder="Linkedin URL"
+            name="linkedin"
+            value={linkedin}
+            onChange={e => onChange(e)}
             />
           </div>
 
