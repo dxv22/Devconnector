@@ -11,8 +11,7 @@ const PostItem = ({
   removeLike,
   auth, 
   post: { _id, text, name, avatar, user, likes, comments, date }
-}) => {
-  return (
+}) => (
     <div className="post bg-white p-1 my-1">
           <div>
             <Link to={`profile/${user}`}>
@@ -40,7 +39,7 @@ const PostItem = ({
             <button onClick={e => removeLike(_id)} type="button" className="btn btn-light">
               <i className="fas fa-thumbs-down" />{' '}
             </button>
-            <Link to={`/post/${_id}`} className="btn btn-primary">
+            <Link to={`/posts/${_id}`} className="btn btn-primary">
               Discussion {comments.length > 0 && (
                 <span className='comment-count'>{comments.length}</span>
               )} 
@@ -57,7 +56,6 @@ const PostItem = ({
           </div>
         </div>
   )
-}
 
 PostItem.propTypes = {
   post: PropTypes.object.isRequired,
